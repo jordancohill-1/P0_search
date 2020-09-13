@@ -27,6 +27,18 @@ input[type="submit"]{
  
  input[type="text"]{
  	padding-left: 30px;
+ 	font-size: 16PX;
+ 	font-family: arial,sans-serif;
+}
+
+.col-1{
+	width:182.39px;
+	height: 42px;
+}
+
+.col-2{
+	width: 572px;
+	height: 29px;
 }
 
 .navbar{
@@ -83,9 +95,7 @@ input[type="submit"]{
 
 .info{
 	float: left;
-    display: inline-block;
-    min-width: 167px;
-    width: 16%;
+    display: inline-block;`
     height: 42px;
     font-weight: 500;
     color: #333;
@@ -108,4 +118,11 @@ input[type="submit"]{
 	font-size: 13px;
 }
 
+#advancedButton{
+	background-color: #4d90fe;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+	color: #fff;
+	font-size: 11px;
+    font-weight: bold;
+}
 
